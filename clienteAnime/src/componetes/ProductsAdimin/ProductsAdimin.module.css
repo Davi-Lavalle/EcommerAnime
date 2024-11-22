@@ -1,0 +1,89 @@
+.form h2{
+  text-align: center;
+  color: white;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    margin:2%;
+    
+}
+
+.form select {
+    margin: 2%;
+  }
+
+.form button {
+    background-color: var(--primary);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10vh;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: white;
+    color: var(--primary);
+    transition: 0.2s;
+  }
+
+  .form ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .form li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .form li .button-group {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+  }
+  
+  .form li button {
+    margin-left: 10px;
+  }
+  
+  .form li button.delete {
+    background-color: #dc3545;
+  }
+  
+  .form li button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  .form li button.edit {
+    background-color: #ffc107;
+  }
+  
+  .form li button.edit:hover {
+    background-color: #e0a800;
+  }
+
+.option{
+    color: black;
+  }
+
+.imagelist{
+  width: 100px;
+}
+
+.imageDetalhes{
+  width: 100%;
+}
+

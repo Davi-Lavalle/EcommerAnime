@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Japan Wave';
+  src: url('/fonte/Japan_wave.ttf') format('truetype');
+}
+
+
+:root {
+  font-family: 'Japan Wave', 'Fira Code', monospace; 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --primary:#ff1d31;
+  --secondary:#373737;
+  --terceary:#c0c1c3;
+ 
+}

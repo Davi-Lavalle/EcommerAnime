@@ -1,0 +1,57 @@
+.cadastrar{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cadastrar section{
+    background-color: var(--secondary);
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.cadastrar h1{
+    font-size: 3em;
+    background-color: var(--primary);
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.cadastrar label{
+    color: white;
+    font-size: 1.5em;
+}
+
+.cadastrar p{
+    color: white;
+}
+
+.cadastrar input{
+    margin-top: 1vh;
+}
+
+.cadastrar button{
+    background-color: var(--primary);
+    border-radius: 10vh;
+    width: 30%;
+    height: 2em;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.cadastrar button:hover{
+    background-color: white;
+    color: var(--primary);    
+    transition: 0.2s;
+}
+
+.cadastrar div{
+    text-align: center;
+    padding-bottom: 3vh;
+}

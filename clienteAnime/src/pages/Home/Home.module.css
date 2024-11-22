@@ -1,0 +1,21 @@
+.home{
+    text-align: center;
+}
+
+.home div{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.home img{
+    width: 95%;
+}
+
+.home h1{
+    font-size: 4em;
+    color: var(--primary);
+}
+
+.home span{
+    font-size: 2.5em;
+}

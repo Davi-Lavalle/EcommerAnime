@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+    height: 8vh;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+  
+.navigation a:hover {
+    color: black;
+    transition: 0.2s;
+}

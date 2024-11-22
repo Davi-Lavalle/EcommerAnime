@@ -1,0 +1,70 @@
+/* carrinho.module.css */
+.carrinhoContainer {
+    background-color: var(--secondary);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carrinhoHeader {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .carrinhoList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .carrinhoItem {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .removeLink {
+    color: white;
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .removeLink:hover {
+    background-color: white;
+    color: var(--primary);
+  }
+  
+  .carrinhoTotal {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .carrinhoLink,
+  .clearLink {
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .carrinhoLink:hover,
+  .clearLink:hover {
+    background-color: white;
+    color: var(--primary);
+  }
+  

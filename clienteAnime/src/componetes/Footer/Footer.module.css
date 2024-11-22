@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: var(--secondary);
+  padding: 20px;
+  gap: 20px;
+}
+
+.footer div {
+  flex: 1 1 200px; 
+  max-width: 250px;
+  margin: 10px;
+}
+
+.footer h2 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 5px 0;
+}
+
+.footer a {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--primary);
+  transition: 0.2s;
+}
+
+.pagamento ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.pagamento ol li {
+  width: 60px;
+}
+
+.pagamento img {
+  width: 100%;
+}
+
+.envio img {
+  width: 70px;
+}
+

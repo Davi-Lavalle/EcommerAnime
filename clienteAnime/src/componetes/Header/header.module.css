@@ -1,0 +1,89 @@
+/* Estilos Gerais */
+.header {
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img {
+    width: 150px;
+}
+
+.pesquisa {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header input {
+    width: 100%;
+    border-radius: 10px;
+    height: 3em;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.header a:hover {
+    color: var(--primary);
+    transition: 0.2s;
+}
+
+/* Estilo do ícone de pesquisa */
+.busca {
+    font-size: 2rem;
+    margin-right: 1%;
+    color: white;
+}
+
+/* Ícone do Perfil */
+.perfil {
+    font-size: 2.5rem; /* Define o mesmo tamanho para o ícone do perfil */
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+/* Ícone do Carrinho */
+.cartIcon {
+    font-size: 2.5rem; /* Define o mesmo tamanho para o ícone do carrinho */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.cartIcon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+/* Estilo do Dropdown */
+.dropmenu {
+    position: relative;
+}
+
+.droplist {
+    position: absolute;
+    display: none;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+}
+
+/* Estilo do Carrinho */
+.cart {
+    list-style: none;
+    margin-right: 1rem;
+}

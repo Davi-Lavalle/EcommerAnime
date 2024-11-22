@@ -1,0 +1,25 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.filterContainer {
+    margin-bottom: 20px;
+  }
+  
+  .filterLabel {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .option {
+    padding: 10px;
+  }
+  

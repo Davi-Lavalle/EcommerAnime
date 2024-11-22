@@ -1,0 +1,10 @@
+.admin {
+    background-color: var(--secondary);
+    padding: 2%;
+}
+
+.admin h1{
+    text-align: center;
+    padding-bottom: 1vh;
+    color: white;
+}
